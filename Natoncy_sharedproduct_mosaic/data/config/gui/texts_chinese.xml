@@ -1,0 +1,12 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000256</GUID>
+      <Text>??Mosaic</Text>
+    </Text>
+    <Text>
+      <GUID>1404000257</GUID>
+      <Text>??More than the sum of its pieces.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

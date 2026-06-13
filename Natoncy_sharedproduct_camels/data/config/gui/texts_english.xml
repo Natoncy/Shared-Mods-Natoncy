@@ -1,0 +1,12 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000235</GUID>
+      <Text>Camels</Text>
+    </Text>
+    <Text>
+      <GUID>1404000236</GUID>
+      <Text>Built for the desert.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
