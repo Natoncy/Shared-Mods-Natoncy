@@ -42,12 +42,8 @@
       </Item>
     </ModOp>
 
-    <!-- # Storage List -->
-    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404000253']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
-      <Item>
-        <Product>1404000253</Product>
-      </Item>
-    </ModOp>
+    <!-- # Storage List: NONE. Not in the regular warehouse (120055) on its own;
+         mods that use this good add it themselves (Return to the Orient does). -->
 
     <!-- # Docklands: NONE -->
 
@@ -114,6 +110,25 @@
             <LocaText>
               <English>
                 <Text>kaftans fluff text</Text>
+              </English>
+            </LocaText>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="118750">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1404000255</GUID>
+            <Name>kaftans expedition fluff text</Name>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Keeps out the sun by day and the cold by night.</Text>
               </English>
             </LocaText>
           </Text>

@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1404000235</GUID>
             <Name>camels</Name>
-			      <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_dromedary.png</IconFilename>
+			      <IconFilename>data\modgraphics\ui\icon_camels.png</IconFilename>
             <InfoDescription>1404000236</InfoDescription>
           </Standard>
           <Locked />
@@ -42,12 +42,8 @@
       </Item>
     </ModOp>
 
-    <!-- # Storage List -->
-    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404000235']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
-      <Item>
-        <Product>1404000235</Product>
-      </Item>
-    </ModOp>
+    <!-- # Storage List: NONE. Not in the regular warehouse (120055) on its own;
+         mods that use this good add it themselves (Return to the Orient does). -->
 
     <!-- # Docklands: NONE -->
 
@@ -59,7 +55,7 @@
           <Standard>
             <GUID>1404000602</GUID>
             <Name>IsMainfactory_Fake: camels</Name>
-			      <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_dromedary.png</IconFilename>
+			      <IconFilename>data\modgraphics\ui\icon_camels.png</IconFilename>
           </Standard>
           <Building>
             <AssociatedRegions>Moderate</AssociatedRegions>
@@ -114,6 +110,25 @@
             <LocaText>
               <English>
                 <Text>camels fluff text</Text>
+              </English>
+            </LocaText>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="118750">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1404000237</GUID>
+            <Name>camels expedition fluff text</Name>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Always finds the way to the next well.</Text>
               </English>
             </LocaText>
           </Text>
